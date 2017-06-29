@@ -6,8 +6,8 @@
 		<ObservationZone type="BGAStartSector"/>
 	</Point>
 	<Point type="Turn">
-		<Waypoint altitude="128.016" comment="Church Spire" id="215" name="BUCkingham">
-			<Location latitude="51.9981" longitude="-0.98895"/>
+		<Waypoint altitude="67.056" comment="M1ServcsBrdg" id="903" name="NPT NwprtPgn">
+			<Location latitude="52.0834" longitude="-0.748267"/>
 		</Waypoint>
 		<ObservationZone type="Keyhole"/>
 	</Point>
@@ -21,7 +21,7 @@
 		<Waypoint altitude="137.16" comment="Y junction" id="162" name="BO5 RckwllEn">
 			<Location latitude="51.5865" longitude="-0.8531"/>
 		</Waypoint>
-		<ObservationZone type="Keyhole"/>
+		<ObservationZone radius="500" type="Cylinder"/>
 	</Point>
 	<Point type="Finish">
 		<Waypoint altitude="149.047" comment="Windsock" id="114" name="BF1 BkrFnshS">
