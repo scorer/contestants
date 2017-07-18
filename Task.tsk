@@ -1,32 +1,38 @@
 <Task fai_finish="0" finish_min_height_ref="AGL" finish_min_height="0" start_max_height_ref="AGL" start_max_height="0" start_max_speed="0" start_requires_arm="0" aat_min_time="10800" type="RT">
 	<Point type="Start">
-		<Waypoint altitude="110.033" comment="SmllbrdgvrM4" id="164" name="BOB BkrM40Br">
+		<Waypoint altitude="110.033" comment="Turn Point, Small bridge over M40, Bridge to Kensham Farm, E side of Cadmore End village, 2NMl NW of airfield, used as a start point, TMA at 4500ft, LTMA 2500 to E., #. Local knowledge required." id="164" name="Booker M40 Bridge">
 			<Location latitude="51.627" longitude="-0.85925"/>
 		</Waypoint>
-		<ObservationZone type="BGAStartSector"/>
+		<ObservationZone radius="1000" type="Cylinder"/>
 	</Point>
 	<Point type="Turn">
-		<Waypoint altitude="67.056" comment="M1ServcsBrdg" id="903" name="NPT NwprtPgn">
-			<Location latitude="52.0834" longitude="-0.748267"/>
-		</Waypoint>
-		<ObservationZone type="Keyhole"/>
-	</Point>
-	<Point type="Turn">
-		<Waypoint altitude="195.682" comment="Centreofrfld" id="451" name="EDGehill">
-			<Location latitude="52.085" longitude="-1.47363"/>
-		</Waypoint>
-		<ObservationZone type="Keyhole"/>
-	</Point>
-	<Point type="Turn">
-		<Waypoint altitude="137.16" comment="Y junction" id="162" name="BO5 RckwllEn">
-			<Location latitude="51.5865" longitude="-0.8531"/>
+		<Waypoint altitude="81.9912" comment="Turn Point, A40/A4142 R&apos;bout, East side of town, at Headington. Easy to find and on chart." id="926" name="Oxford East">
+			<Location latitude="51.763" longitude="-1.19707"/>
 		</Waypoint>
 		<ObservationZone radius="500" type="Cylinder"/>
 	</Point>
+	<Point type="Turn">
+		<Waypoint altitude="110.033" comment="Turn Point, M4 J13 Roundabout, Just East of M4 bridge over A34 Near Motorway Services. Easy to find and on chart." id="284" name="Chieveley">
+			<Location latitude="51.4526" longitude="-1.31047"/>
+		</Waypoint>
+		<ObservationZone type="BGAFixedCourse"/>
+	</Point>
+	<Point type="Turn">
+		<Waypoint altitude="205.74" comment="Turn Point, Prison wall SE, N of A4130 W of Nettlebed.  Also used by Booker to avoid airspace &amp; power circuit. Local knowledge required." id="614" name="Huntercombe">
+			<Location latitude="51.5865" longitude="-1.01713"/>
+		</Waypoint>
+		<ObservationZone type="BGAFixedCourse"/>
+	</Point>
+	<Point type="Turn">
+		<Waypoint altitude="137.16" comment="Turn Point, Y junction, 2 km S of Frieth Village.  Used by Booker to avoid the Power Circuit.  Avoid LTMA overhead at 2500ft, ##. Local knowledge required." id="162" name="Rockwell End">
+			<Location latitude="51.5865" longitude="-0.8531"/>
+		</Waypoint>
+		<ObservationZone type="BGAFixedCourse"/>
+	</Point>
 	<Point type="Finish">
-		<Waypoint altitude="149.047" comment="Windsock" id="114" name="BF1 BkrFnshS">
+		<Waypoint altitude="149.047" comment="Turn Point, Windsock, Opposite T Junction where Beacon Lane joins B482, #. Easy to find but not on chart." id="114" name="Booker Finish SW">
 			<Location latitude="51.6062" longitude="-0.8089"/>
 		</Waypoint>
-		<ObservationZone length="1000" type="Line"/>
+		<ObservationZone length="500" type="Line"/>
 	</Point>
 </Task>
