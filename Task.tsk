@@ -1,21 +1,21 @@
 <Task fai_finish="0" finish_min_height_ref="AGL" finish_min_height="0" start_max_height_ref="AGL" start_max_height="0" start_max_speed="0" start_requires_arm="0" aat_min_time="10800" type="RT">
 	<Point type="Start">
-		<Waypoint altitude="110.033" comment="Turn Point, Small bridge over M40, Bridge to Kensham Farm, E side of Cadmore End village, 2NMl NW of airfield, used as a start point, TMA at 4500ft, LTMA 2500 to E., #. Local knowledge required." id="164" name="Booker M40 Bridge">
-			<Location latitude="51.627" longitude="-0.85925"/>
+		<Waypoint altitude="153.01" comment="Turn Point, Windmill, On hill N of Turville village 3 NMl W of Booker airfield, used as control point for final glides into Booker, #. Local knowledge required." id="161" name="Turville Windmill">
+			<Location latitude="51.6165" longitude="-0.8898"/>
 		</Waypoint>
 		<ObservationZone radius="1000" type="Cylinder"/>
 	</Point>
 	<Point type="Turn">
-		<Waypoint altitude="81.9912" comment="Turn Point, A40/A4142 R&apos;bout, East side of town, at Headington. Easy to find and on chart." id="926" name="Oxford East">
-			<Location latitude="51.763" longitude="-1.19707"/>
+		<Waypoint altitude="85.0392" comment="Turn Point, Bridge W side of Rail Junction, Road br. over rly W side of triangle rail junction, 5 E of Bicester. Difficult to find." id="237" name="Calvert Rail Junction">
+			<Location latitude="51.9245" longitude="-1.01155"/>
 		</Waypoint>
-		<ObservationZone radius="500" type="Cylinder"/>
+		<ObservationZone type="BGAEnhancedOption"/>
 	</Point>
 	<Point type="Turn">
-		<Waypoint altitude="110.033" comment="Turn Point, M4 J13 Roundabout, Just East of M4 bridge over A34 Near Motorway Services. Easy to find and on chart." id="284" name="Chieveley">
-			<Location latitude="51.4526" longitude="-1.31047"/>
+		<Waypoint altitude="88.0872" comment="Turn Point, River/A4074 Bridge, Dual carriageway over R Thames 300m N of small rail br. Difficult to find." id="929" name="Oxford South">
+			<Location latitude="51.725" longitude="-1.24147"/>
 		</Waypoint>
-		<ObservationZone type="BGAFixedCourse"/>
+		<ObservationZone type="BGAEnhancedOption"/>
 	</Point>
 	<Point type="Turn">
 		<Waypoint altitude="205.74" comment="Turn Point, Prison wall SE, N of A4130 W of Nettlebed.  Also used by Booker to avoid airspace &amp; power circuit. Local knowledge required." id="614" name="Huntercombe">
