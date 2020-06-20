@@ -1,38 +1,32 @@
-<Task fai_finish="0" finish_min_height_ref="AGL" finish_min_height="0" start_max_height_ref="AGL" start_max_height="0" start_max_speed="0" start_requires_arm="0" aat_min_time="10800" type="RT">
-	<Point type="Start">
-		<Waypoint altitude="153.01" comment="Turn Point, Windmill, On hill N of Turville village 3 NMl W of Booker airfield, used as control point for final glides into Booker, #. Local knowledge required." id="161" name="Turville Windmill">
-			<Location latitude="51.6165" longitude="-0.8898"/>
-		</Waypoint>
-		<ObservationZone radius="1000" type="Cylinder"/>
-	</Point>
-	<Point type="Turn">
-		<Waypoint altitude="85.0392" comment="Turn Point, Bridge W side of Rail Junction, Road br. over rly W side of triangle rail junction, 5 E of Bicester. Difficult to find." id="237" name="Calvert Rail Junction">
-			<Location latitude="51.9245" longitude="-1.01155"/>
-		</Waypoint>
-		<ObservationZone type="BGAEnhancedOption"/>
-	</Point>
-	<Point type="Turn">
-		<Waypoint altitude="88.0872" comment="Turn Point, River/A4074 Bridge, Dual carriageway over R Thames 300m N of small rail br. Difficult to find." id="929" name="Oxford South">
-			<Location latitude="51.725" longitude="-1.24147"/>
-		</Waypoint>
-		<ObservationZone type="BGAEnhancedOption"/>
-	</Point>
-	<Point type="Turn">
-		<Waypoint altitude="205.74" comment="Turn Point, Prison wall SE, N of A4130 W of Nettlebed.  Also used by Booker to avoid airspace &amp; power circuit. Local knowledge required." id="614" name="Huntercombe">
-			<Location latitude="51.5865" longitude="-1.01713"/>
-		</Waypoint>
-		<ObservationZone type="BGAFixedCourse"/>
-	</Point>
-	<Point type="Turn">
-		<Waypoint altitude="137.16" comment="Turn Point, Y junction, 2 km S of Frieth Village.  Used by Booker to avoid the Power Circuit.  Avoid LTMA overhead at 2500ft, ##. Local knowledge required." id="162" name="Rockwell End">
-			<Location latitude="51.5865" longitude="-0.8531"/>
-		</Waypoint>
-		<ObservationZone type="BGAFixedCourse"/>
-	</Point>
-	<Point type="Finish">
-		<Waypoint altitude="149.047" comment="Turn Point, Windsock, Opposite T Junction where Beacon Lane joins B482, #. Easy to find but not on chart." id="114" name="Booker Finish SW">
-			<Location latitude="51.6062" longitude="-0.8089"/>
-		</Waypoint>
-		<ObservationZone length="500" type="Line"/>
-	</Point>
+<Task type="RT" task_scored="0" aat_min_time="10800" start_max_speed="60" start_max_height="0" start_max_height_ref="MSL" finish_min_height="0" finish_min_height_ref="AGL" fai_finish="0" min_points="2" max_points="13" homogeneous_tps="0" is_closed="0">
+  <Point type="Start">
+    <Waypoint name="Goring" id="0" comment="" altitude="68.0">
+      <Location longitude="-1.128" latitude="51.5116333"/>
+    </Waypoint>
+    <ObservationZone type="Line" length="20000.0"/>
+  </Point>
+  <Point type="Turn">
+    <Waypoint name="Abingdon Bridge" id="0" comment="" altitude="50.0">
+      <Location longitude="-1.2794333" latitude="51.6686667"/>
+    </Waypoint>
+    <ObservationZone type="Keyhole"/>
+  </Point>
+  <Point type="Turn">
+    <Waypoint name="Finmere" id="0" comment="" altitude="118.0">
+      <Location longitude="-1.0694" latitude="51.9886333"/>
+    </Waypoint>
+    <ObservationZone type="Keyhole"/>
+  </Point>
+  <Point type="Turn">
+    <Waypoint name="Booker M40 Bridge" id="0" comment="" altitude="110.0">
+      <Location longitude="-0.85925" latitude="51.6270333"/>
+    </Waypoint>
+    <ObservationZone type="Keyhole"/>
+  </Point>
+  <Point type="Finish">
+    <Waypoint name="Chiltern Park" id="0" comment="" altitude="60.0">
+      <Location longitude="-1.1013333" latitude="51.5505"/>
+    </Waypoint>
+    <ObservationZone type="Cylinder" radius="3000.0"/>
+  </Point>
 </Task>
