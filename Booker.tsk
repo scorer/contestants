@@ -1,0 +1,33 @@
+<Task type="RT" task_scored="0" aat_min_time="10800" start_max_speed="60" start_max_height="0" start_max_height_ref="MSL" finish_min_height="0" finish_min_height_ref="AGL" fai_finish="0" min_points="2" max_points="13" homogeneous_tps="0" is_closed="0">
+  <Point type="Start">
+    <Waypoint name="Goring" id="0" comment="" altitude="68.0">
+      <Location longitude="-1.128" latitude="51.5116333"/>
+    </Waypoint>
+    <ObservationZone type="Line" length="20000.0"/>
+  </Point>
+  <Point type="Turn">
+    <Waypoint name="Abingdon Bridge" id="0" comment="" altitude="50.0">
+      <Location longitude="-1.2794333" latitude="51.6686667"/>
+    </Waypoint>
+    <ObservationZone type="Keyhole"/>
+  </Point>
+  <Point type="Turn">
+    <Waypoint name="Finmere" id="0" comment="" altitude="118.0">
+      <Location longitude="-1.0694" latitude="51.9886333"/>
+    </Waypoint>
+    <ObservationZone type="Keyhole"/>
+  </Point>
+  <Point type="Turn">
+    <Waypoint name="Booker M40 Bridge" id="0" comment="" altitude="110.0">
+      <Location longitude="-0.85925" latitude="51.6270333"/>
+    </Waypoint>
+    <ObservationZone type="Keyhole"/>
+  </Point>
+  <Point type="Finish">
+    <Waypoint name="Chiltern Park" id="0" comment="" altitude="60.0">
+      <Location longitude="-1.1013333" latitude="51.5505"/>
+    </Waypoint>
+    <ObservationZone type="Cylinder" radius="3000.0"/>
+  </Point>
+</Task>
+
