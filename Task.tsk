@@ -1,0 +1,32 @@
+<Task fai_finish="0" finish_min_height_ref="AGL" finish_min_height="0" start_max_height_ref="AGL" start_max_height="0" start_max_speed="0" start_requires_arm="0" aat_min_time="10800" type="RT">
+	<Point type="Start">
+		<Waypoint altitude="68.9" comment="" id="364" name="Goring">
+			<Location latitude="51.5116" longitude="-1.128"/>
+		</Waypoint>
+		<ObservationZone length="5000" type="Line"/>
+	</Point>
+	<Point type="Turn">
+		<Waypoint altitude="88.1" comment="" id="603" name="Oxford South">
+			<Location latitude="51.725" longitude="-1.24147"/>
+		</Waypoint>
+		<ObservationZone type="BGAFixedCourse"/>
+	</Point>
+	<Point type="Turn">
+		<Waypoint altitude="114.9" comment="" id="783" name="Thame Church">
+			<Location latitude="51.7509" longitude="-0.981"/>
+		</Waypoint>
+		<ObservationZone type="BGAFixedCourse"/>
+	</Point>
+	<Point type="Turn">
+		<Waypoint altitude="205.7" comment="" id="425" name="Huntercombe">
+			<Location latitude="51.5865" longitude="-1.01713"/>
+		</Waypoint>
+		<ObservationZone type="BGAFixedCourse"/>
+	</Point>
+	<Point type="Finish">
+		<Waypoint altitude="60.7" comment="" id="9" name="Chiltern Park">
+			<Location latitude="51.5505" longitude="-1.10133"/>
+		</Waypoint>
+		<ObservationZone radius="3000" type="Cylinder"/>
+	</Point>
+</Task>
