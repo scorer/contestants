@@ -1,9 +1,15 @@
 <Task fai_finish="0" finish_min_height_ref="AGL" finish_min_height="0" start_max_height_ref="MSL" start_max_height="0" start_max_speed="0" start_requires_arm="0" aat_min_time="10800" type="RT">
 	<Point type="Start">
-		<Waypoint altitude="60.7" comment="" id="9" name="Chiltern Park">
-			<Location latitude="51.5505" longitude="-1.10133"/>
+		<Waypoint altitude="118.9" comment="" id="428" name="Ilsley">
+			<Location latitude="51.5251" longitude="-1.29092"/>
 		</Waypoint>
 		<ObservationZone type="FAISector"/>
+	</Point>
+	<Point type="Turn">
+		<Waypoint altitude="89" comment="" id="221" name="Chilbolton">
+			<Location latitude="51.145" longitude="-1.43815"/>
+		</Waypoint>
+		<ObservationZone type="BGAFixedCourse"/>
 	</Point>
 	<Point type="Turn">
 		<Waypoint altitude="88.1" comment="" id="798" name="Towcester">
@@ -12,8 +18,14 @@
 		<ObservationZone type="BGAFixedCourse"/>
 	</Point>
 	<Point type="Turn">
-		<Waypoint altitude="109.7" comment="" id="599" name="Overton">
-			<Location latitude="51.2533" longitude="-1.26402"/>
+		<Waypoint altitude="91.1" comment="" id="122" name="Bletchley">
+			<Location latitude="52.001" longitude="-0.708767"/>
+		</Waypoint>
+		<ObservationZone type="BGAFixedCourse"/>
+	</Point>
+	<Point type="Turn">
+		<Waypoint altitude="131.1" comment="" id="528" name="Marlborough">
+			<Location latitude="51.4163" longitude="-1.73292"/>
 		</Waypoint>
 		<ObservationZone type="BGAFixedCourse"/>
 	</Point>
