@@ -6,26 +6,8 @@
 		<ObservationZone type="FAISector"/>
 	</Point>
 	<Point type="Turn">
-		<Waypoint altitude="89" comment="" id="221" name="Chilbolton">
-			<Location latitude="51.145" longitude="-1.43815"/>
-		</Waypoint>
-		<ObservationZone type="BGAFixedCourse"/>
-	</Point>
-	<Point type="Turn">
-		<Waypoint altitude="88.1" comment="" id="798" name="Towcester">
-			<Location latitude="52.1396" longitude="-0.99685"/>
-		</Waypoint>
-		<ObservationZone type="BGAFixedCourse"/>
-	</Point>
-	<Point type="Turn">
-		<Waypoint altitude="91.1" comment="" id="122" name="Bletchley">
-			<Location latitude="52.001" longitude="-0.708767"/>
-		</Waypoint>
-		<ObservationZone type="BGAFixedCourse"/>
-	</Point>
-	<Point type="Turn">
-		<Waypoint altitude="131.1" comment="" id="528" name="Marlborough">
-			<Location latitude="51.4163" longitude="-1.73292"/>
+		<Waypoint altitude="114.9" comment="" id="84" name="Basingstoke West">
+			<Location latitude="51.2554" longitude="-1.19075"/>
 		</Waypoint>
 		<ObservationZone type="BGAFixedCourse"/>
 	</Point>
