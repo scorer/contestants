@@ -6,22 +6,28 @@
 		<ObservationZone type="FAISector"/>
 	</Point>
 	<Point type="Turn">
+		<Waypoint altitude="181.1" comment="131.030" id="457" name="Lasham Finish North">
+			<Location latitude="51.1941" longitude="-1.03333"/>
+		</Waypoint>
+		<ObservationZone type="BGAFixedCourse"/>
+	</Point>
+	<Point type="Turn">
+		<Waypoint altitude="200.9" comment="" id="536" name="Membury">
+			<Location latitude="51.4821" longitude="-1.55642"/>
+		</Waypoint>
+		<ObservationZone type="BGAFixedCourse"/>
+	</Point>
+	<Point type="Turn">
 		<Waypoint altitude="82" comment="" id="600" name="Oxford East">
 			<Location latitude="51.763" longitude="-1.19707"/>
 		</Waypoint>
 		<ObservationZone type="BGAFixedCourse"/>
 	</Point>
 	<Point type="Turn">
-		<Waypoint altitude="139.9" comment="" id="858" name="Woolley Down">
-			<Location latitude="51.5228" longitude="-1.42513"/>
+		<Waypoint altitude="62.5" comment="" id="298" name="Didcot Rail Bridge">
+			<Location latitude="51.6153" longitude="-1.25778"/>
 		</Waypoint>
-		<ObservationZone type="BGAFixedCourse"/>
-	</Point>
-	<Point type="Turn">
-		<Waypoint altitude="92" comment="" id="443" name="Kingston Bagpuize">
-			<Location latitude="51.6853" longitude="-1.41238"/>
-		</Waypoint>
-		<ObservationZone type="BGAFixedCourse"/>
+		<ObservationZone radius="2000" type="Cylinder"/>
 	</Point>
 	<Point type="Finish">
 		<Waypoint altitude="60.7" comment="" id="9" name="Chiltern Park">
